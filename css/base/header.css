@@ -1,0 +1,41 @@
+.header .left{
+    flex: 1;
+    justify-content: left;
+    width: 157px;
+    height: 104px;
+    
+}
+.header{
+    padding: 10px;
+    display: flex;
+    padding-bottom: 0px;
+}
+.header .left .photo{
+    margin-bottom: 20px;
+}
+.header .right{
+    width: 232px;
+    height: 97px;
+    
+    justify-content: right;
+}
+.header .right .button{
+    display: flex;
+    margin-bottom: 37px;
+}
+.header .right .button .m-button{
+    flex: 1;
+}
+.header .right .link{
+    display: flex;
+    justify-content: right;
+}
+.header .right .link .m-link a{
+    display: inline;
+    border-right: solid 1px #333;
+    padding: 0 5px;
+}
+.header .right .link .m-link:last-child a{
+    border-right: none;
+    padding-right: 0px;
+}

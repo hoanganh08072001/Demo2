@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    width: 100;
+    background-color: dimgrey;
+    padding: 12px;
+    padding-right: 0px;
+}
+.nav .m-nav{
+    border-right: solid 1px #fff;
+    display: inline;
+    padding: 0 10px; 
+}
+.nav .m-nav:last-child{
+    border-right: none;
+}
+.nav .m-nav a{
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    color: #fff;
+}
+.nav .m-nav a:hover{
+    color: #ccff00;;
+}

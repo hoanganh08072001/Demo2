@@ -1,0 +1,78 @@
+.left{
+    width: 620px;
+    height: 670px;
+    margin-right: 20px;
+}
+.left .text1{
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #666666;
+}
+.left .m-text1{
+    width: 620px;
+    height: 159px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.left .title{
+    width: 350px;
+    height: 87px;
+}
+.left .title .m-title{
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    font-weight: bold;
+    color: #5870e6;
+    margin-bottom: 10px;
+}
+.left .m-text1 .photo{
+    margin-right: 30px;
+}
+.left .list{
+    display: flex;
+    justify-content: space-between;
+    width: 100;
+    background: #f9f8f8;
+    border: 1px solid #ebeaea;
+    margin-bottom: 40px;
+    padding: 10px 25px;
+}
+.left .m-list{
+    font-weight: bold;
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman';
+}
+.left .new{
+    width: 100;
+    padding: 10px 0 30px 10px;
+    padding-bottom: 0px;
+}
+.left .news{
+    padding-top: 0px;
+}
+.left .new .m-new{
+    
+    font-family: 'Times New Roman';
+}
+.left .new .m-new1{
+    border-bottom: 1px dotted #000;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.left .new .m-new2{
+    border-bottom: none;
+}
+.left .new .m-new1 a{
+    color: #0000EE;
+    text-decoration: none;
+}
+.left .new .m-new1 a:hover{
+    text-decoration: underline;
+}
+.left .btn{
+    text-align: center;
+}
+

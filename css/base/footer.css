@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    width: 100;
+    border-top: 1px solid #a3a2a2;
+    margin-top: 40px;
+    padding: 10px;
+}
+.footer .m-left{
+    flex: 1;
+}
+.footer .size a{
+    color: #0000EE;
+}
+.footer .m-right{
+    height: 30px;
+    width: 530px;
+}
+.footer .m-right .link{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+.footer .m-right .link .m-link a{
+    color: #0000EE;
+    display: inline;
+    border-right: solid 1px #333;
+    padding: 0 10px;
+}
+.footer .m-right .link .m-link:last-child a{
+    border-right: none;
+    padding-right: 0px;
+}
+.footer .m-right .size1{
+    text-align: right;
+}
